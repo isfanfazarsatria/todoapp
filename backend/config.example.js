@@ -3,7 +3,7 @@ const config = {
     host: 'localhost',
     mongoURI : 'your cluster mongo setup',
     JWTSecretKey: 'Random This Secret Key',
-    JWTExpires: 60 * 60 * 24 * 3 //3days 
+    JWTExpires: 'set token expired' 
 }
 
 module.exports = config
